@@ -1,4 +1,4 @@
-"""Black Jack 21 by Stanley Cunningham stan61285@msn.com
+"""Black Jack 21
 Play and bet against the computer in a game of Single Deck Black Jack in the terminal.
 """
 import random
@@ -345,7 +345,6 @@ def init_prompt():
 
 
 player1 = Bank(*init_prompt())
-# player1 = Bank('Stanley', 100)
 cpu = Deck('Computer')
 
 if __name__ == '__main__':
